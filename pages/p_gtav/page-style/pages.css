@@ -6,7 +6,7 @@
 body{
     background-color: var(--preto);
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capas/421641.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://images7.alphacoders.com/421/421641.jpg");
 
     height: 80%;
     background-size: cover;

@@ -6,7 +6,7 @@
 body{
     background-color: var(--preto);
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Borderlands_bk.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://images6.alphacoders.com/306/306468.jpg");
 
     height: 80%;
     background-size: cover;

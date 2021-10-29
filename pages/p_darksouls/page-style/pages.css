@@ -6,7 +6,7 @@
 body{
     background-color: var(--preto);
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/darksouls.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://images5.alphacoders.com/609/609173.jpg");
 
     height: 80%;
     background-size: cover;

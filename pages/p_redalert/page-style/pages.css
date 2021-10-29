@@ -6,7 +6,7 @@
 body{
     background-color: var(--preto);
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/redalert.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://images2.alphacoders.com/107/1078125.png");
 
     height: 80%;
     background-size: cover;
