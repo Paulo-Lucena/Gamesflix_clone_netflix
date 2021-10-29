@@ -1,0 +1,108 @@
+:root{
+    --laranja:#FFA500	;
+    --preto:#141414;
+}
+
+body{
+    background-color: var(--preto);
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/darksouls.jpg");
+
+    height: 80%;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/*header*/
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+header .logo{
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family: "Arial Black";
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+header nav a:hover{
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/*botoes*/
+.botao{
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 60px;
+    margin-right: 1px;
+    font-size: 12px;
+    margin-bottom: 15%;
+    margin-top: 1%;
+    margin-left: 40px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 8px;
+    
+}
+
+.imgcapa{
+    margin-top: 10%;
+    margin-left: 25px;
+    height: 600px;
+    width: 500px;
+    border: 2px solid var(--laranja);
+    border-radius: 2%;
+    display: inline-block;
+}
+
+.descricao{
+    display: inline-block;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin-left: 800px;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    width: 500px;
+    
+    
+}
+
